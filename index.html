@@ -17,16 +17,16 @@
         gtag('config', 'UA-119251168-1');
     </script>
 	<title> Vedant Patel </title>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Vedant Patel, a student at UConn (Portfolio Website)">
 	<meta name="keywords" content="Vedant Patel">
 	<meta name="author" content="Vedant Patel">
-    <link rel="icon" href="/images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon-1.png">
     <link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
     
@@ -41,17 +41,16 @@
 		<div class="container">
 			<header>
 				<div class="row">
+					<div class="col">  
+                        <!--  VP Header Logo -->
+                            <a href="#home" class="logo-link"><img class="logo" src="images/vp.png" width="104" height="73" alt="Vedant Patel"></a>
+						  <button type="button" class="nav-toggler float-right"><span></span><span></span><span></span></button>
+				    </div>
                     
-					<div class="col">
-						<a href="#home" class="logo-link"><img class="logo" src="images/logo.png" width="304" height="73" alt="Vedant Patel"></a>
-						<button type="button" class="nav-toggler float-right"><span></span><span></span><span></span></button>
-					</div>
-
 					<div class="col float-right">
 						<nav>
 							<ul>
                                 <!-- For going to particular section -->
-<!--							<li><a href="#home">Home</a></li>-->
 								<li><a href="#about">About</a></li>
 								<li><a href="#portfolio">Portfolio</a></li>
 								<li><a href="#contact">Contact</a></li>
@@ -62,22 +61,18 @@
 				</div>
 			</header>
 			<div class="caption">
-                
-				<h2>Passionate Learner...</h2>
-				
+				<h2 class= "trans-h2">Hello World</h2>
                 <a href="#about">About Me</a>
 			</div>
 		</div>
 	</div>
-
+    <!-- /#home -->
+    
     <!-- About Me -->
 	<section id="about">
         <div class= "container">
 			<div class="section-header">
 				<h2>About Me</h2>
-				<div class="subheading">
-					Let me introduce myself to you
-				</div>
 			</div>
 			<div class="row">
 				<div class="col col-left">
@@ -111,7 +106,6 @@
 		<div class="container">
             <div class="section-header">
 				<h2>Portfolio</h2>
-                <div class="subheading">List of my projects related to design and development</div>
 			</div>
                 
 			<div class="projects">
@@ -146,7 +140,7 @@
                             </a>
                             
                             <h4>Feed Forward Neural Network Analysis</h4>
-							<p>Perform test to see how learning rates affect accurancy of an epoch when applying different activation functions (Sigmoid, tanH, and Softmax). </p>
+							<p>Perform test to see how learning rates affect accurancy of an epoch when applying different activation functions (Sigmoid, tanH, and Softmax).</p>
 						</div>
 					</div>
                                  
@@ -162,7 +156,7 @@
                             </a>
                             
                             <h4>PatchWork</h4>
-							<p>App that is created for discovering allergies at home. The main goal for this app is provide an easy, affordable, and convenient way to perform a patch-test which is synchronize to our app. </p>
+							<p>App that is created for discovering allergies at home. The main goal for this app is provide an easy, affordable, and convenient way to perform a patch-test which is synchronize to our app.</p>
 						</div>
 					</div>
                     
@@ -194,23 +188,16 @@
 		<div class="container">
 			<div class="section-header">
 				<h2>Contact</h2>
-				<div class="subheading">Feel free to contact me below</div>
 			</div>
                 <div id="wrapper">
                     <ul class="social"> 
-                        
                         <li><a class="icon" id= "GitHub" title= "GitHub" href="https://github.com/vedantpatel">
                         <i class="fa fa-github" style="font-size:28px;"></i></a>
-                        <li><a class="icon"id= "Linkedin"title= "Linkedin" href="https://www.linkedin.com/in/vedant~patel/">
+                        <li><a class="icon" id= "Linkedin" title= "Linkedin" href="https://www.linkedin.com/in/vedant~patel/">
                         <i class="fa fa-linkedin"></i></a>
                         <li><a class="icon" id= "Email" href="mailto:vedantpatel.a@gmail.com?Subject=Hello">
                         <i class="fa fa-envelope"></i></a>
                             
-<!--
-                        <li><a class="icon entypo-github" id= "GitHub" title= "GitHub" href="https://github.com/vedantpatel"> </a></li>
-                        <li><a class="icon entypo-linkedin"id= "Linkedin"title= "Linkedin" href="https://www.linkedin.com/in/vedant~patel/"> </a></li>
-                        <li><a class="icon entypo-mail" id= "Email" href="mailto:vedantpatel.a@gmail.com?Subject=Hello"> </a></li>
--->
                     </ul> 
                 <div class="clearfix"></div>    
             </div>
@@ -255,5 +242,16 @@
 			});
 		</script>
         <!-- jquery --> 
-	</body>
-	</html>
+        
+        <footer class="">
+            <ul class="ul-pad">
+                <li><a href="#about">About</a></li>
+                <li class="li-1"><a href="#portfolio">Portfolio</a></li>
+                <li class="li-2"><a href="#contact">Contact</a></li>
+                <li><a href="files/Resume.pdf">Resume</a></li>
+            </ul>
+            <p>© 2018 Vedant Patel</p>
+      </footer>
+    
+    </body>
+</html>
