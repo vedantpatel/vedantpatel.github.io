@@ -195,8 +195,8 @@ section {
 /* ------------------ About Section -----------------*/
 /* Paragraph */
 p {
-    line-height: 21px; 
-    margin-bottom: 15px;
+    font-size: 1rem;
+    text-align: justify;
 }
 
 .container {
@@ -206,11 +206,8 @@ p {
 
 p.bigger {
     font-size: 25px; 
-    color:#7D5757;
-}
-
-.italic {
-    font-style:italic;
+    color: #7D5757;
+    font-style: italic;
 }
 
 #about {
@@ -240,6 +237,10 @@ p.bigger {
 
 .description {
     text-align: center;
+}
+
+.bottom-space p {
+    padding-bottom: 1rem;
 }
 
 .col-left .img-thumb {
@@ -402,6 +403,7 @@ footer {
 footer p {
     margin: 0;
     padding-top: 15px;  
+    text-align: center;
 }
 
 .li-1 {
@@ -424,8 +426,7 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     color: white;
-    text-align: center;
-    padding-left: 15%; 
+    text-align: center; 
     text-transform: uppercase;
 }
 
@@ -502,7 +503,8 @@ footer ul li a:hover {
 /*-------------- Media Queries --------------------- */
 /* Desktop screen and below */
 @media(max-width: 1200px) {
-	#portfolio .col {
+    
+    #portfolio .col {
         width: 33.3333%;
     }
     nav a:hover {
@@ -512,7 +514,8 @@ footer ul li a:hover {
 
 /* Tablet size and below */
 @media(max-width: 992px) {
-	#about .col-left, #about .col-right, #wrapper {
+	    
+    #about .col-left, #about .col-right, #wrapper {
     float: none; 
     width: 100%;
     -webkit-margin-before: 1em;
@@ -533,7 +536,12 @@ footer ul li a:hover {
 
 /*for Mobile phones and below*/
 @media(max-width: 768px) {
-	header .col, .col-left .img-thumb, #portfolio .col, #wrapper ul, footer .col {
+
+    p.bigger {
+        text-align: center;
+    }
+    
+    header .col, .col-left .img-thumb, #portfolio .col, #wrapper ul, footer .col {
         float: none;
     }
 	nav {
