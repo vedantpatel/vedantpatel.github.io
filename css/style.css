@@ -8,7 +8,7 @@
 }
 
 body, #contact input, #contact textarea {
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Karla', sans-serif;
     font-size: 18px; color: #444444; 
     -webkit-font-smoothing: antialiased;
 }
@@ -279,7 +279,6 @@ p.bigger {
   width: 100%;
   opacity: 0;
   background-color: #56575C;
-    
 }
 
 .container-1:hover .overlay {
@@ -516,12 +515,12 @@ footer ul li a:hover {
 @media(max-width: 992px) {
 	    
     #about .col-left, #about .col-right, #wrapper {
-    float: none; 
-    width: 100%;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+        float: none; 
+        width: 100%;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
     }
 	#about .col-left {
         margin-bottom: 25px;
@@ -537,6 +536,13 @@ footer ul li a:hover {
 /*for Mobile phones and below*/
 @media(max-width: 768px) {
 
+    #about p {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+    
     p.bigger {
         text-align: center;
     }
