@@ -204,7 +204,17 @@
     </section>
     <!-- Contact --> 
     
-  
+     <!-- Footer -->  
+    <footer class="">
+        <ul class="ul-pad">
+            <li><a class="scroll-Top" href="#about">About</a></li>
+            <li class="li-1"><a class="scroll-Top" href="#portfolio" aria-label="Portfolio">Portfolio</a></li>
+            <li class="li-2"><a class="scroll-Top" href="#contact" aria-label="Contact">Contact</a></li>
+            <li><a class="scroll-Top" href="files/Resume.pdf" aria-label="Resume">Resume</a></li>
+        </ul>
+        <p>© 2019 Vedant Patel</p>
+    </footer>
+    <!-- Footer -->     
 
     <!-- jquery -->    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -229,7 +239,7 @@
 
 				var headerHeight = $('header').outerHeight()-10;
 
-				$('nav li a, .caption a, .logo-link').click(function(){
+				$('nav li a, .caption a, .logo-link, .about-link, .scroll-Top').click(function(){
 					var target = $(this).attr('href');
 					$('html, body').animate({
 						scrollTop: $(target).offset().top-headerHeight
@@ -244,16 +254,6 @@
 			});
 		</script>
         <!-- jquery --> 
-        
-        <footer class="">
-            <ul class="ul-pad">
-                <li><a href="#about">About</a></li>
-                <li class="li-1"><a href="#portfolio" aria-label="Portfolio">Portfolio</a></li>
-                <li class="li-2"><a href="#contact" aria-label="Contact">Contact</a></li>
-                <li><a href="files/Resume.pdf" aria-label="Resume">Resume</a></li>
-            </ul>
-            <p>© 2018 Vedant Patel</p>
-      </footer>
-    
+
     </body>
 </html>
