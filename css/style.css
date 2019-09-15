@@ -230,6 +230,16 @@ p.bigger {
     text-align: inherit;
 }
 
+.about-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-link:hover {
+    color:coral
+}
+
 #about p {
     line-height: 1.8;
 }
@@ -330,7 +340,7 @@ p.bigger {
     width: auto;
     padding: 0px;
     zoom: 1;
-    *display: inline;
+/*    *display: inline;*/
 }
 
 #wrapper li {
@@ -587,6 +597,9 @@ footer ul li a:hover {
 	#portfolio .col, #wrapper {
         width: 100%;
     } 
+    #wrapper li {
+        border: 2.5px solid orange;
+    }
 	footer {
         line-height: 25px;
     }
