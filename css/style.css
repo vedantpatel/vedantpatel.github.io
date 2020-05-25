@@ -35,7 +35,7 @@ h4 {
 
 .col {
     padding: 0 15px; 
-    float: left;
+    float: left !important;
     }
 
 /* Button for Resume */
@@ -529,6 +529,12 @@ footer ul li a:hover {
     nav a:hover {
         transform: translateY(-5px);
     }
+    
+    .float-right {
+        float: right;
+    }
+    
+    
 }
 
 /* Tablet size and below */
