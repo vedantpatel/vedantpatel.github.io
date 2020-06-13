@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /*.pdf
+
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /*.pdf
