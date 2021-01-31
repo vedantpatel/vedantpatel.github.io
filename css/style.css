@@ -323,7 +323,11 @@ p.bigger {
     border-bottom: 5px solid orange;
 }
 
-#portfolio .col{width: 25%;}
+#portfolio .col {
+    width: 25%;
+    float: right;
+}
+
 .projects{text-align: center;}
 .project{margin-bottom: 50px;}
 .project h4{margin: 16px 0 12px;}
@@ -525,6 +529,7 @@ footer ul li a:hover {
     
     #portfolio .col {
         width: 33.3333%;
+        float: left;
     }
     nav a:hover {
         transform: translateY(-5px);
@@ -538,7 +543,7 @@ footer ul li a:hover {
 }
 
 /* Tablet size and below */
-@media(max-width: 992px) {
+@media(max-width: 1010px) {
 	    
     #about .col-left, #about .col-right, #wrapper {
         float: none; 
@@ -553,6 +558,7 @@ footer ul li a:hover {
     }
 	#portfolio .col {
         width: 50%;
+        float: right;
     } 
     nav a:hover {
         transform: translateY(-5px);
