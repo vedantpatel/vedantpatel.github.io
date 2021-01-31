@@ -323,9 +323,10 @@ p.bigger {
     border-bottom: 5px solid orange;
 }
 
-#portfolio .col {
-    width: 25%;
-    float: right;
+#portfolio .col{width: 25%;}
+
+.margin {
+    margin: 0.01%;
 }
 
 .projects{text-align: center;}
@@ -534,12 +535,9 @@ footer ul li a:hover {
     nav a:hover {
         transform: translateY(-5px);
     }
-    
     .float-right {
         float: right;
     }
-    
-    
 }
 
 /* Tablet size and below */
@@ -558,7 +556,6 @@ footer ul li a:hover {
     }
 	#portfolio .col {
         width: 50%;
-        float: right;
     } 
     nav a:hover {
         transform: translateY(-5px);
